@@ -1,2 +1,2 @@
-require './eric_daubert_music'
+require './daubert'
 run Sinatra::Application
