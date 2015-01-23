@@ -57,16 +57,22 @@
             %a{:href => "#featured"} Friends
           %li#menu-item-contact.menu-item.scroll
             %a{:href => "#contact"} Contact
-        / #main-menu
-      / #left-sidebar
-      / end: Left Sidebar
+
       %section#main-content.clearfix
         %article#intro.section-wrapper.clearfix{"data-custom-background-img" => "images/other_images/ed-b&w-3.jpeg"}
           .content-wrapper.clearfix.wow.fadeInDown{"data-wow-delay" => "0.3s"}
             .col-sm-10.col-md-9.pull-right
               %section.feature-text
                 %h1 Eric Daubert
-                %p Music Man Extraordinaire!
+                %p Guitar Totin', Mandolin Pickin', Beat Slappin', One Man Band!
+                / %p With genres ranging form reggae to country, the guitar totting, mandolin picking , beat slapping one man band covers a diverse range of music. Growing in Beaufort, S.C. playing in reggae, jam, funk, blues  bands throughout the southeast. Playing shows ranging from the smallest corner in the room to festival stages. drawing from influences ranging from Johnny cash to Bob Marley
+
+                / %p Currently writing a concept album coming out later this year. When not performing solo plays with  local groups Pluff Mudd and Sportfis, and the  Accomplacis. 
+
+                / %p Cut his teeth on lowcoutnry music which ranges from reggae to country. 
+                / %p lowcountry blues
+                / %p marshgrass melodies
+                / %p Music Man Extraordinaire!
                 %p
                   %a.link-scroll.btn.btn-outline-inverse.btn-lg{:href => "#bio"} find out more
         %article#bio.section-wrapper.clearfix{"data-custom-background-img" => "images/other_images/ed-8.jpeg"}
@@ -330,59 +336,6 @@
                       .item
                         %a{"data-lightbox" => "popup-alt-gallery", :href => "images/other_images/bg3.jpg"}
                           %img.lazyOwl{"data-src" => "images/other_images/gallery-thumb-3.jpg"}/
-                  / #modal-content-8
-              / end: .feature-columns
-              / End: Section content to edit
-            / .col-sm-10
-          / .content-wrapper
-        / .section-wrapper
-        %article#contact.section-wrapper.clearfix{"data-custom-background-img" => "images/other_images/ed-2.jpeg"}
-          .content-wrapper.clearfix
-            %h1.section-title Contact
-            / CONTACT DETAILS
-            .contact-details.col-sm-5.col-md-3
-              %p
-                123A,
-                %br>/
-                Molestie Lorem Avenue,
-                %br>/
-                Aliquam
-                %br>/
-                AAA0010
-              %p Tel: (+20) 21 301 524
-              %p
-                %a{:href => "mailto:info@loremipsum.com"} info@loremipsum.com
-            / END: CONTACT DETAILS
-            / CONTACT FORM
-            .col-sm-7.col-md-9
-              / IMPORTANT: change the email address at the top of the php/mail.php file to the email address that you want this form to send to
-              %form.form-style.validate-form.clearfix{:action => "php/mail.php", :method => "POST", :role => "form"}
-                / form left col
-                .col-md-6
-                  .form-group
-                    %input#form-name.text-field.form-control.validate-field.required{"data-validation-type" => "string", :name => "name", :placeholder => "Full Name", :type => "text"}/
-                  .form-group
-                    %input#form-email.text-field.form-control.validate-field.required{"data-validation-type" => "email", :name => "email", :placeholder => "Email Address", :type => "email"}/
-                  .form-group
-                    %input#form-contact-number.text-field.form-control.validate-field.phone{"data-validation-type" => "phone", :name => "contact_number", :placeholder => "Contact Number", :type => "tel"}/
-                  .form-group.text-right
-                    %img#form-captcha-img{:src => "php/form_captcha/captcha_img.php"}/
-                    %input#form-captcha.text-field.form-control.validate-field.required{"data-validation-type" => "captcha", :name => "captcha", :placeholder => "Enter text", :type => "text"}/
-                    %span#form-captcha-refresh.fa.fa-refresh{:title => "Reload"}
-                / end: form left col
-                / form right col
-                .col-md-6
-                  .form-group
-                    %textarea.form-control.validate-field.required{:name => "message", :placeholder => "Message..."}
-                  .form-group
-                    %img.form-loader{:src => "images/theme_images/loader-form.GIF"}/
-                    %button.btn.btn-sm.btn-outline-inverse{:type => "submit"} Submit
-                  .form-group.form-general-error-container
-                / end: form right col
-            / end: CONTACT FORM
-          / .content-wrapper
-        / .section-wrapper
-      / #main-content
       / Footer
       %section#footer
         / Go to Top
